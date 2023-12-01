@@ -23,6 +23,7 @@ app.use('/sendEmail', (req, res, next)=>{
             auth: {
                 user: email,
                 pass: password
+                // Authorization
             }
         })
     }
